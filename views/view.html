@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0"/>
+
+        <title>Cedalion</title>
+        <meta name="description" content="A site for sharing plaintext"/>
+        <meta name="author" content="nokaa"/>
+        <link rel="stylesheet" href="https://nokaa.moe/resources/erato.min.css">
+    </head>
+    
+    <body>
+        <header role="banner" aria-label="main">
+            <h1 class="c"><a href="/">Cedalion</a></h1>
+            <p class="c">
+                This project was created by <a href="https://nokaa.moe">nokaa</a>.</br>
+                Cedalion is licensed under the <a href="https://opensource.org/licenses/agpl-3.0">AGPL</a>.</br>
+                Its source is available at <a href="https://github.com/nokaa/cedalion">GitHub</a> or <a href="https://git.nokaa.moe/nokaa/cedalion">here</a>.
+            </p>
+        </header>
+        <main aria-label="Content">
+            <h4 class="c"><a href="/r/{{.Name}}">View Raw</a></h4>
+            <pre><code>{{.Paste}}</code></pre>
+        </main>
+        <footer class="c" aria-label="License information">
+            <a class="l" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            </a><br />
+            All user contributions are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        </footer>
+    </body>
+</html>
